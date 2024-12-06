@@ -102,9 +102,9 @@ export const HeroImage = () => {
         <img
           className={classNames(
             "relative z-10 transition-opacity delay-[680ms]",
-            inView ? "opacity-100" : "opacity-0"
+            inView ? "opacity-70" : "opacity-0"
           )}
-          src="/img/hero.webp"
+          src="/img/hero.png"
           alt="Hero image"
         />
       </div>
