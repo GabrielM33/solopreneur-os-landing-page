@@ -16,46 +16,46 @@ export const SetDirection = () => {
       <Features.Main
         title={
           <>
-            Set direction
+            Plan your growth
             <br />
-            with Roadmaps
+            with confidence
           </>
         }
         image="/roadmap.webp"
         imageSize="large"
-        text="Plan visually, collaborate in cross-team projects, and make better decisions with progress insights and project updates."
+        text="Transform your business vision into actionable plans. Track progress, measure results, and adjust your strategy with data-driven insights."
       />
       <Features.Grid
         features={[
           {
             icon: ParentSubIcon,
-            title: "Multi-team projects.",
-            text: "Collaborate across teams and departments.",
+            title: "Strategic planning",
+            text: "Break down your yearly goals into quarterly action plans",
           },
           {
             icon: AutomatedBacklogIcon,
-            title: "Project documents.",
-            text: "Write project briefs and specs directly in Linear.",
+            title: "Growth tracking",
+            text: "Monitor key metrics and business health automatically",
           },
           {
             icon: WorkflowsIcon,
-            title: "Custom roadmaps.",
-            text: "Organize projects across multiple roadmaps.",
+            title: "Business roadmaps",
+            text: "Visualize your journey from solopreneur to CEO",
           },
           {
             icon: CustomViewsIcon,
-            title: "Timeline view.",
-            text: "Visualize the product journey ahead.",
+            title: "Progress dashboard",
+            text: "See your business growth in real-time metrics",
           },
           {
             icon: DiscussionIcon,
-            title: "Project insights.",
-            text: "Track scope, velocity, and progress over time.",
+            title: "Performance insights",
+            text: "Track revenue, time saved, and operational efficiency",
           },
           {
             icon: IssuesIcon,
-            title: "Personal notifications.",
-            text: "Stay in the loop on project activity and updates.",
+            title: "Smart notifications",
+            text: "Get alerted when key metrics need your attention",
           },
         ]}
       />
@@ -64,14 +64,14 @@ export const SetDirection = () => {
           {
             image: "/card-updates.webp",
             imageClassName: "top-[55%] md:top-[40%] w-full left-[7%]",
-            title: "Project updates",
-            text: "Keep everyone up-to-date on the health and progress of projects.",
+            title: "Business health updates",
+            text: "Get weekly insights on your business performance and growth trajectory",
           },
           {
             image: "/card-roadmaps.webp",
             imageClassName: "top-[55%] md:top-[40%] w-full left-[2%]",
-            title: "Focus on the big picture",
-            text: "Explore every company project in one view to easily identify what needs attention.",
+            title: "Focus on growth",
+            text: "See all your business metrics in one view to identify opportunities and optimize operations",
           },
         ]}
       />

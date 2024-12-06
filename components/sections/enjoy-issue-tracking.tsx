@@ -16,45 +16,45 @@ export const EnjoyIssueTracking = () => {
       <Features.Main
         title={
           <>
-            Issue tracking
+            Workflow automation
             <br />
-            you'll enjoy using
+            that works for you
           </>
         }
         image="/issues.webp"
-        text="Create tasks in seconds, discuss issues in context, and breeze through your work in views tailored to you and your team."
+        text="Create automated workflows in seconds, manage tasks effortlessly, and watch your business run smoothly with systems tailored to your solopreneur journey."
       />
       <Features.Grid
         features={[
           {
             icon: ParentSubIcon,
-            title: "Parent and sub-issues.",
-            text: "Break larger takss into smaller issues",
+            title: "Projects & subtasks",
+            text: "Break complex business operations into manageable workflows",
           },
           {
             icon: AutomatedBacklogIcon,
-            title: "Automated backlog.",
-            text: "Linear will auto-close and auto-archive issues.",
+            title: "Smart automation",
+            text: "Auto-complete routine tasks and archive completed work",
           },
           {
             icon: WorkflowsIcon,
-            title: "Custom workflows",
-            text: "Define unique issue states for each team.",
+            title: "Pre-built workflows",
+            text: "23 battle-tested templates for common business processes",
           },
           {
             icon: CustomViewsIcon,
-            title: "Filters and custom views.",
-            text: "See only what's relevant for you.",
+            title: "Custom dashboards",
+            text: "See exactly what needs your attention right now",
           },
           {
             icon: DiscussionIcon,
-            title: "Discussion.",
-            text: "Collaborate on issues without losing context.",
+            title: "Client management",
+            text: "Handle client communication without losing context",
           },
           {
             icon: IssuesIcon,
-            title: "Issue templates.",
-            text: "Guide your team to write effective issues.",
+            title: "Process templates",
+            text: "Turn your best workflows into repeatable systems",
           },
         ]}
       />
@@ -63,15 +63,15 @@ export const EnjoyIssueTracking = () => {
           {
             image: "/card-board.webp",
             imageClassName: "top-[55%] md:top-[40%] w-[200%]",
-            title: "List and board",
-            text: "Switch between list and board layout to view work from any angle.",
+            title: "Your command center",
+            text: "Switch between task lists and workflow views to manage your business from any angle",
           },
           {
             image: "/card-views.webp",
             imageClassName:
               "top-[45%] left-[12px] md:top-[34%] md:left-[24px] w-[110%]",
-            title: "Make it yours",
-            text: "Quickly apply filters and operators to refine your issue lists and create custom views.",
+            title: "Built for you",
+            text: "Quickly filter and organize your workflows to focus on what matters most to your business",
           },
         ]}
       />

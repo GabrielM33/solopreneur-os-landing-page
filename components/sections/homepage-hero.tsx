@@ -11,7 +11,7 @@ export const HomepageHero = () => (
       variant="secondary"
       size="small"
     >
-      <span>Save 40% - Launch Off</span>{" "}
+      <span>Save 30% - Launch Offer</span>{" "}
     </Button>
     <HeroTitle className="translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:200ms] font-semibold">
       Solopreneur OS
@@ -27,10 +27,10 @@ export const HomepageHero = () => (
       size="large"
     >
       <span>Get Instant Access </span>
-      <Highlight>
-        <ChevronIcon />
-      </Highlight>
     </Button>
-    <HeroImage />
+    <div className="-mt-16">
+       <HeroImage />
+    </div>
+   
   </Hero>
 );

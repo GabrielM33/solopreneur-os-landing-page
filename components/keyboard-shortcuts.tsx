@@ -4,18 +4,18 @@ import { Button, Highlight } from "./button";
 import { KeyboardIllustration } from "./illustrations/keyboard";
 
 const shortcuts = [
-  { text: "Opens command line", keys: "⌘k" },
-  { text: "Assign issue to me", keys: "i" },
-  { text: "Assign issue to", keys: "a" },
-  { text: "Change issue status", keys: "s" },
-  { text: "Set issue priority", keys: "p" },
-  { text: "Add issue labels", keys: "l" },
-  { text: "Set due date", keys: "⇧d" },
-  { text: "Set parent issue", keys: "⇧⌘p" },
-  { text: "Add sub-issue", keys: "⇧⌘o" },
-  { text: "Create new issue", keys: "c" },
-  { text: "Create new issue from template", keys: "⌥c" },
-  { text: "Move to project", keys: "⇧p" },
+  { text: "Open command center", keys: "⌘k" },
+  { text: "Create new workflow", keys: "w" },
+  { text: "Start automation", keys: "a" },
+  { text: "Set task status", keys: "s" },
+  { text: "Set priority level", keys: "p" },
+  { text: "Add task labels", keys: "l" },
+  { text: "Schedule task", keys: "⇧d" },
+  { text: "Link to project", keys: "⇧⌘p" },
+  { text: "Create subtask", keys: "⇧⌘o" },
+  { text: "Quick task", keys: "c" },
+  { text: "Use task template", keys: "⌥c" },
+  { text: "Move to workspace", keys: "⇧p" },
 ];
 
 export const KeyboardShortcuts = () => {
