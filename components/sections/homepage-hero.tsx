@@ -11,17 +11,15 @@ export const HomepageHero = () => (
       variant="secondary"
       size="small"
     >
-      <span>Linear 2022 Release – Built for scale</span>{" "}
-      <Highlight>→</Highlight>
+      <span>Save 40% - Launch Off</span>{" "}
     </Button>
-    <HeroTitle className="translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:200ms]">
-      Linear is a better way
-      <br className="hidden md:block" /> to build products
+    <HeroTitle className="translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:200ms] font-semibold">
+      Solopreneur OS
+      <br className="hidden md:block" /> 
     </HeroTitle>
     <HeroSubtitle className="translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:400ms]">
-      Meet the new standard for modern software development.
-      <br className="hidden md:block" /> Streamline issues, sprints, and product
-      roadmaps.
+      Transform your business into a well-oiled machine
+      <br className="hidden md:block" />  with a complete operating system.
     </HeroSubtitle>
     <Button
       className="translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:600ms]"
@@ -29,7 +27,7 @@ export const HomepageHero = () => (
       variant="primary"
       size="large"
     >
-      <span>Get Started </span>
+      <span>Get Instant Access </span>
       <Highlight>
         <ChevronIcon />
       </Highlight>
