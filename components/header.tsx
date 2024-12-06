@@ -32,7 +32,7 @@ export const Header = () => {
     <header className="fixed top-0 left-0 z-10 w-full border-b border-transparent-white backdrop-blur-[12px]">
       <Container className="flex h-navigation-height">
         <Link className="flex items-center text-md" href="/">
-          <Logo className="mr-4 h-[1.8rem] w-[1.8rem]" /> Linear
+          <Logo className="mr-4 h-[1.8rem] w-[1.8rem]" /> Envision
         </Link>
 
         <div
@@ -60,31 +60,19 @@ export const Header = () => {
                 <Link href="#">Features</Link>
               </li>
               <li>
-                <Link href="#">Method</Link>
-              </li>
-              <li className="md:hidden lg:block">
-                <Link href="#">Customers</Link>
-              </li>
-              <li className="md:hidden lg:block">
-                <Link href="#">Changelog</Link>
-              </li>
-              <li className="md:hidden lg:block">
-                <Link href="#">Integrations</Link>
-              </li>
-              <li>
                 <Link href="#">Pricing</Link>
               </li>
               <li>
-                <Link href="#">Company</Link>
+                <Link href="#">About</Link>
+              </li>
+              <li>
+                <Link href="#">Blog</Link>
               </li>
             </ul>
           </nav>
         </div>
 
         <div className="ml-auto flex h-full items-center">
-          <Link className="mr-6 text-sm" href="#">
-            Log in
-          </Link>
           <Button href="#">Sign up</Button>
         </div>
 
