@@ -18,8 +18,7 @@ export const HomepageHero = () => (
       <br className="hidden md:block" /> 
     </HeroTitle>
     <HeroSubtitle className="translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:400ms]">
-      Transform your business into a well-oiled machine
-      <br className="hidden md:block" />  with a complete operating system.
+    Transform your business operations into seamless <br /> workflows that run on autopilot.
     </HeroSubtitle>
     <Button
       className="translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:600ms]"
