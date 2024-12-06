@@ -22,11 +22,11 @@ export const HomepageHero = () => (
     </HeroSubtitle>
     <Button
       className="translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:600ms]"
-      href="/"
+      href="https://buy.stripe.com/dR6bMFdYp3b6aJiaEF"
       variant="primary"
       size="large"
     >
-      <span>Get Instant Access </span>
+        <span>Get Instant Access </span>
     </Button>
     <div className="-mt-16">
        <HeroImage />
