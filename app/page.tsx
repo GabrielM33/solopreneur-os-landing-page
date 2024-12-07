@@ -8,6 +8,7 @@ import { Features2 } from "@/components/sections/Features2";
 import { Product } from "@/components/sections/Product";
 import { CTA } from "@/components/CTA";
 import { Pricing } from "@/components/sections/Pricing";
+import { Features3 } from "@/components/sections/Features3";
 
 export default function Homepage() {
   return (
@@ -31,14 +32,15 @@ export default function Homepage() {
       </div>
       <Product />
       <Features1 />
-      <div className="mt-16">
-        <CTA />
+      <Features3 />
+      <div id="pricing">
+        <Pricing />
       </div>
       <div className="pb-16">
         <Features2 />
-        <div id="pricing">
-          <Pricing />
-        </div>
+      </div>
+      <div className="  pb-16">
+        <CTA />
       </div>
     </>
   );
