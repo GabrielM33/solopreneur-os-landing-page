@@ -37,7 +37,7 @@ export const Footer = () => (
       <div className="flex flex-col">
         <div className="flex items-center text-grey">
           <Logo className="mr-4 h-4 w-4" /> 
-          <span>Envision</span>
+          <span>SolopreneurOS</span>
         </div>
         <div className="mt-4 flex space-x-4 text-grey">
           <TwitterIcon />

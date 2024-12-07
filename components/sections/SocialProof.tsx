@@ -15,7 +15,7 @@ import Image from "next/image";
 
 export const SocialProof = () => (
   <>
-    <p className="mb-12 text-center text-lg text-white md:text-xl">
+    <p className="mb-12 text-center text-lg text-white md:text-xl pb-10">
       <span className="text-primary-text">
         Built on
       </span>

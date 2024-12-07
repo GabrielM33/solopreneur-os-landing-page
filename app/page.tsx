@@ -34,10 +34,8 @@ export default function Homepage() {
       <div className="mt-16">
         <CTA />
       </div>
-      <Features3 />
-      <Features2 />
-      <div className="py-20">
-        <CTA />
+      <div className="pb-16" id="pricing">
+        <Features2 />
       </div>
     </>
   );
