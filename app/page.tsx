@@ -7,6 +7,7 @@ import { HomepageHero } from "@/components/sections/HomePageHero";
 import { Features2 } from "@/components/sections/Features2";
 import { Product } from "@/components/sections/Product";
 import { CTA } from "@/components/CTA";
+import { Pricing } from "@/components/sections/Pricing";
 
 export default function Homepage() {
   return (
@@ -33,8 +34,11 @@ export default function Homepage() {
       <div className="mt-16">
         <CTA />
       </div>
-      <div className="pb-16" id="pricing">
+      <div className="pb-16">
         <Features2 />
+        <div id="pricing">
+          <Pricing />
+        </div>
       </div>
     </>
   );
