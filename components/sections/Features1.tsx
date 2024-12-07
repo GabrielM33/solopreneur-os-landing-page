@@ -1,6 +1,6 @@
 "use client";
 
-import { Features } from "../Features";
+import { Features } from "@/components/Features";
 import {
   AutomatedBacklogIcon,
   CustomViewsIcon,
