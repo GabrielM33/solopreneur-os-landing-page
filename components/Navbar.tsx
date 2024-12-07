@@ -2,10 +2,10 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { Button } from "@/components/Button";
-import { Container } from "@/components/Container";
-import { HamburgerIcon } from "@/components/icons/hamburger";
-import { Logo } from "@/components/icons/logo";
+import { Button } from "./Button";
+import { Container } from "./Container";
+import { HamburgerIcon } from "./icons/hamburger";
+import { Logo } from "./icons/logo";
 import classNames from "classnames";
 
 export const Header = () => {

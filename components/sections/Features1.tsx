@@ -1,6 +1,6 @@
 "use client";
 
-import { Features } from "@/components/Features";
+import { Features } from "../Features";
 import {
   AutomatedBacklogIcon,
   CustomViewsIcon,
@@ -8,7 +8,7 @@ import {
   IssuesIcon,
   ParentSubIcon,
   WorkflowsIcon,
-} from "@/components/icons/features";
+} from "../icons/features";
 
 export const Features1 = () => {
   return (
