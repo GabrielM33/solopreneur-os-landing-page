@@ -2,8 +2,8 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { Button } from "./button";
-import { Container } from "./container";
+import { Button } from "./Button";
+import { Container } from "./Container";
 import { HamburgerIcon } from "./icons/hamburger";
 import { Logo } from "./icons/logo";
 import classNames from "classnames";

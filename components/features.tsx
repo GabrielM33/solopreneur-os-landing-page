@@ -1,7 +1,7 @@
 "use client";
 
 import classNames from "classnames";
-import { Container } from "./container";
+import { Container } from "./Container";
 import { useInView } from "react-intersection-observer";
 
 type FeaturesProps = {

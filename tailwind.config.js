@@ -67,6 +67,7 @@ module.exports = {
     },
     boxShadow: {
       primary: "rgb(80 63 205 / 50%) 0px 1px 40px",
+      glow: "0 0 10px rgba(255,255,255,0.2)",
     },
     transitionDelay: {
       0: "0ms",
@@ -126,6 +127,15 @@ module.exports = {
           transform: "scale(0.98)",
         },
       },
+      glow: {
+        "0%, 100%": {
+          filter: "brightness(1)",
+        },
+        "50%": {
+          filter: "brightness(1.2)",
+          boxShadow: "0 0 20px rgba(255,255,255,0.3)",
+        },
+      },
     },
     animation: {
       "fade-in": "fade-in 1000ms var(--animation-delay, 0ms) ease forwards",
@@ -138,6 +148,7 @@ module.exports = {
         "glow-line-vertical var(--animation-duration) ease-in forwards",
       zap: "zap 2250ms calc(var(--index) * 20ms) linear infinite",
       bounce: "240ms ease 0s 1 running bounce",
+      glow: "glow 4s ease-in-out infinite",
     },
   },
   plugins: [],

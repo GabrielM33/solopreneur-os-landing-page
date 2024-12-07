@@ -1,21 +1,19 @@
-import { Button, Highlight } from "../button";
-import { CommandMenu } from "../command-menu";
-import { Container } from "../container";
+import { Button, Highlight } from "../Button";
+import { CommandMenu } from "../CommandMenu";
+import { Container } from "../Container";
 import { LogoLightIllustration } from "../illustrations/logo-light";
 import { ZapIllustration } from "../illustrations/zap";
-import { KeyboardShortcuts } from "../keyboard-shortcuts";
+import { KeyboardShortcuts } from "../Solution";
 
-export const UnlikeAnyTool = () => (
+export const Product = () => (
   <div className="text-white">
     <Container>
       <div className="text-center">
         <h2 className="mb-4 text-4xl md:mb-7 md:text-7xl">
           A complete system
-          <br className="hidden md:inline-block" /> unlike any tool you've used
         </h2>
         <p className="mx-auto mb-12 max-w-[68rem] text-lg text-primary-text md:mb-7 md:text-xl">
-          Built on proven frameworks and engineered for solopreneurs, Solopreneur OS combines
-          powerful automation with intuitive workflows to run your entire business.
+          Built on proven frameworks and engineered for solopreneurs, with intuitive workflows to run your entire business.
         </p>
       </div>
     </Container>

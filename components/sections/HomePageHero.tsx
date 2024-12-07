@@ -1,10 +1,11 @@
-import { Button, Highlight } from "../button";
+import { Button, Highlight } from "../Button";
 import { Hero, HeroTitle, HeroSubtitle } from "../hero";
-import { HeroImage } from "../hero-image";
+import { HeroImage } from "../HeroImage";
 import { ChevronIcon } from "../icons/chevron";
 
 export const HomepageHero = () => (
   <Hero>
+    <div className="py-16">
     <Button
       className="translate-y-[-1rem] animate-fade-in opacity-0"
       href="/"
@@ -18,7 +19,7 @@ export const HomepageHero = () => (
       <br className="hidden md:block" /> 
     </HeroTitle>
     <HeroSubtitle className="translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:400ms]">
-    Transform your business operations into seamless <br /> workflows that run on autopilot.
+    Transform your business operations into a seamless <br /> system that runs on autopilot.
     </HeroSubtitle>
     <Button
       className="translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:600ms]"
@@ -28,6 +29,7 @@ export const HomepageHero = () => (
     >
         <span>Get Instant Access </span>
     </Button>
+    </div>
     <div className="-mt-16">
        <HeroImage />
     </div>

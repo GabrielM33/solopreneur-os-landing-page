@@ -1,6 +1,6 @@
-import { AnalyticsWrapper } from "../components/analytics";
-import { Footer } from "../components/footer";
-import { Header } from "../components/header";
+import { AnalyticsWrapper } from "../components/Analytics";
+import { Footer } from "../components/Footer";
+import { Header } from "../components/Navabar";
 import "../styles/globals.css";
 
 export default function Layout({ children }: { children: React.ReactNode }) {

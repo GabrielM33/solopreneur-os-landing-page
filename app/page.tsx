@@ -1,14 +1,13 @@
 import classNames from "classnames";
-import { Container } from "../components/container";
+import { Container } from "../components/Container";
 import { StarsIllustration } from "../components/icons/stars";
-import { BuildMomentum } from "../components/sections/build-momentum";
-import { Clients } from "../components/sections/clients";
-import { EnjoyIssueTracking } from "../components/sections/enjoy-issue-tracking";
-import { HomepageHero } from "../components/sections/homepage-hero";
-import { SetDirection } from "../components/sections/set-direction";
-import { UnlikeAnyTool } from "../components/sections/unlike-any-tool";
+import { Features3 } from "../components/sections/Features3";
+import { SocialProof } from "../components/sections/SocialProof";
+import { Features1 } from "../components/sections/Features1";
+import { HomepageHero } from "../components/sections/HomePageHero";
+import { Features2 } from "../components/sections/Features2";
+import { Product } from "../components/sections/Product";
 import { CTA } from "../components/CTA";
-import { Button } from "../components/button";
 
 export default function Homepage() {
   return (
@@ -19,7 +18,7 @@ export default function Homepage() {
         </Container>
       </div>
       <Container>
-        <Clients />
+        <SocialProof />
       </Container>
       <div
         className={classNames(
@@ -30,13 +29,13 @@ export default function Homepage() {
       >
         <StarsIllustration />
       </div>
-      <UnlikeAnyTool />
-      <EnjoyIssueTracking />
+      <Product />
+      <Features1 />
       <div className="mt-16">
         <CTA />
       </div>
-      <BuildMomentum />
-      <SetDirection />
+      <Features3 />
+      <Features2 />
       <div className="py-20">
         <CTA />
       </div>

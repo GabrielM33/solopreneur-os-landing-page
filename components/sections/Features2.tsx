@@ -1,6 +1,6 @@
 "use client";
 
-import { Features } from "../features";
+import { Features } from "../Features";
 import {
   AutomatedBacklogIcon,
   CustomViewsIcon,
@@ -10,7 +10,7 @@ import {
   WorkflowsIcon,
 } from "../icons/features";
 
-export const SetDirection = () => {
+export const Features2 = () => {
   return (
     <Features color="0,225,244" colorDark="31,49,64">
       <Features.Main
@@ -62,16 +62,16 @@ export const SetDirection = () => {
       <Features.Cards
         features={[
           {
-            image: "/card-updates.webp",
-            imageClassName: "top-[55%] md:top-[40%] w-full left-[7%]",
-            title: "Business health updates",
-            text: "Get weekly insights on your business performance and growth trajectory",
+            image: "",
+            imageClassName: "basic-plan",
+            title: "$37 Lifetime Access",
+            text: "• Complete operating system for solopreneurs\n• 23 pre-built workflows saving 15+ hours/week\n• Free onboarding call\n• 100% money-back guarantee",
           },
           {
-            image: "/card-roadmaps.webp",
-            imageClassName: "top-[55%] md:top-[40%] w-full left-[2%]",
-            title: "Focus on growth",
-            text: "See all your business metrics in one view to identify opportunities and optimize operations",
+            image: "", 
+            imageClassName: "pro-plan",
+            title: "$47 Lifetime Access",
+            text: "Everything in Basic, plus:\n• Exclusive mastermind access\n• Premium templates & guides\n• Priority support\n• Lifetime updates",
           },
         ]}
       />

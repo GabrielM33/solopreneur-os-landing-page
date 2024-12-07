@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Cookies from "js-cookie";
-import { Button } from "./button";
+import { Button } from "./Button";
 
 const cookieBannerName = "copyright-banner-dismissed";
 

@@ -1,6 +1,6 @@
 "use client";
 import { useCallback, useEffect, useRef, useState } from "react";
-import { Button, Highlight } from "./button";
+import { Button, Highlight } from "./Button";
 import { KeyboardIllustration } from "./illustrations/keyboard";
 
 const shortcuts = [

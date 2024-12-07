@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Container } from "./container";
+import { Container } from "./Container";
 import { GithubIcon } from "./icons/github";
 import { Logo } from "./icons/logo";
 import { TwitterIcon } from "./icons/twitter";
