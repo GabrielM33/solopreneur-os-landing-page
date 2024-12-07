@@ -1,8 +1,8 @@
 "use client";
 
-import { Button } from "../Button";
-import { Hero, HeroTitle, HeroSubtitle } from "../hero";
-import { HeroImage } from "../HeroImage";
+import { Button } from "@/components/Button";
+import { Hero, HeroTitle, HeroSubtitle } from "@/components/hero";
+import { HeroImage } from "@/components/HeroImage";
 
 export const HomepageHero = () => {
   return (

@@ -1,7 +1,7 @@
 "use client";
 import { useCallback, useEffect, useRef, useState } from "react";
-import { Button, Highlight } from "./Button";
-import { KeyboardIllustration } from "./illustrations/keyboard";
+import { Button, Highlight } from "@/components/Button";
+import { KeyboardIllustration } from "@/components/illustrations/keyboard";
 
 const shortcuts = [
   { text: "Open command center", keys: "⌘k" },
