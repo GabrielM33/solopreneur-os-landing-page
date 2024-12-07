@@ -1,9 +1,8 @@
 "use client";
 
-import { Button, Highlight } from "../Button";
+import { Button } from "../../components/Button";
 import { Hero, HeroTitle, HeroSubtitle } from "../hero";
 import { HeroImage } from "../HeroImage";
-import { ChevronIcon } from "../icons/chevron";
 
 export const HomepageHero = () => {
   return (
