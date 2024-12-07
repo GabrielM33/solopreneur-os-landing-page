@@ -62,14 +62,14 @@ export const Features2 = () => {
       <Features.Cards
         features={[
           {
-            image: "",
-            imageClassName: "basic-plan",
+            image: null,
+            imageClassName: null,
             title: "$37 Lifetime Access",
             text: "• Complete operating system for solopreneurs\n• 23 pre-built workflows saving 15+ hours/week\n• Free onboarding call\n• 100% money-back guarantee",
           },
           {
-            image: "", 
-            imageClassName: "pro-plan",
+            image: null,
+            imageClassName: null,
             title: "$47 Lifetime Access",
             text: "Everything in Basic, plus:\n• Exclusive mastermind access\n• Premium templates & guides\n• Priority support\n• Lifetime updates",
           },
