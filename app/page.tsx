@@ -1,7 +1,6 @@
 import classNames from "classnames";
 import { Container } from "../components/Container";
 import { StarsIllustration } from "../components/icons/stars";
-import { Features3 } from "../components/sections/Features3";
 import { SocialProof } from "../components/sections/SocialProof";
 import { Features1 } from "../components/sections/Features1";
 import { HomepageHero } from "../components/sections/HomePageHero";
