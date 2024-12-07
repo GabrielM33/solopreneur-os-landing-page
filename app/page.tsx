@@ -1,12 +1,12 @@
 import classNames from "classnames";
-import { Container } from "../components/Container";
-import { StarsIllustration } from "../components/icons/stars";
-import { SocialProof } from "../components/sections/SocialProof";
-import { Features1 } from "../components/sections/Features1";
-import { HomepageHero } from "../components/sections/HomePageHero";
-import { Features2 } from "../components/sections/Features2";
-import { Product } from "../components/sections/Product";
-import { CTA } from "../components/CTA";
+import { Container } from "@/components/Container";
+import { StarsIllustration } from "@/components/icons/stars";
+import { SocialProof } from "@/components/sections/SocialProof";
+import { Features1 } from "@/components/sections/Features1";
+import { HomepageHero } from "@/components/sections/HomePageHero";
+import { Features2 } from "@/components/sections/Features2";
+import { Product } from "@/components/sections/Product";
+import { CTA } from "@/components/CTA";
 
 export default function Homepage() {
   return (
