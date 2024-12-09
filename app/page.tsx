@@ -31,6 +31,7 @@ export default function Homepage() {
         <StarsIllustration />
       </div>
       <UnlikeAnyTool />
+      <SetDirection />
       <BuildMomentum />
       <div id="pricing">
         <Pricing />
