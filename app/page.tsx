@@ -6,9 +6,9 @@ import { Clients } from "../components/sections/clients";
 import { EnjoyIssueTracking } from "../components/sections/enjoy-issue-tracking";
 import { HomepageHero } from "../components/sections/homepage-hero";
 import { SetDirection } from "../components/sections/set-direction";
+import { Pricing } from "../components/Pricing";
 import { UnlikeAnyTool } from "../components/sections/unlike-any-tool";
 import { CTA } from "../components/CTA";
-import { Button } from "../components/button";
 
 export default function Homepage() {
   return (
@@ -31,13 +31,14 @@ export default function Homepage() {
         <StarsIllustration />
       </div>
       <UnlikeAnyTool />
-      <EnjoyIssueTracking />
-      <div className="mt-16">
-        <CTA />
-      </div>
       <BuildMomentum />
-      <SetDirection />
-      <div className="py-20">
+      <div id="pricing">
+        <Pricing />
+      </div>
+      <div className="pb-16">
+        <EnjoyIssueTracking />
+      </div>
+      <div className="  pb-16">
         <CTA />
       </div>
     </>
