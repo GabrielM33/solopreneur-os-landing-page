@@ -22,7 +22,7 @@ export const EnjoyIssueTracking = () => {
           </>
         }
         image="/issues.webp"
-        text="Create automated workflows in seconds, manage tasks effortlessly, and watch your business run smoothly with systems tailored to your solopreneur journey."
+        text="Manage tasks effortlessly and watch your business run smoothly."
       />
       <Features.Grid
         features={[
